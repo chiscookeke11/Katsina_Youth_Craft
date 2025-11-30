@@ -4,7 +4,7 @@
 
 export default function TestimonialSection() {
     return (
-        <section className="w-full flex flex-col  gap-4 items-center bg-white h-fit font-league-spartan px-[3% ] py-20 bg-fixed  " >
+        <section className="w-full flex flex-col  gap-4 items-center bg-white h-fit font-league-spartan px-[3% ] py-20 bg-fixed   " >
             <h1 className="text-3xl md:text-5xl font-semibold mt-10 " >What People Say <span className="text-red-500" >About Us</span></h1>
 
 

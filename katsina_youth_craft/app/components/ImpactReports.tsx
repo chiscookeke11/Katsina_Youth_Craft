@@ -21,7 +21,7 @@ export default function ImpactReports() {
 
                 <div className="space-y-3" >
                     <h2 className=" text-2xl  md:text-3xl font-semibold  " >IMPACT REPORT</h2>
-                    <p className=" text-xl md:text-2xl font-medium " >At Sterling One Foundation, we are dedicated to impacting the African continent. Read more about our activities, social initiatives and programs that drive social impact across Africa.</p>
+                    <p className=" text-xl md:text-2xl font-medium max-w-3xl " >At Sterling One Foundation, we are dedicated to impacting the African continent. Read more about our activities, social initiatives and programs that drive social impact across Africa.</p>
                 </div>
 
 
