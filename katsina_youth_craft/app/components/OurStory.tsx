@@ -7,9 +7,9 @@ export default function OurStory() {
 
 
             <div className=" w-full basis-1/2 flex items-start flex-col gap-4  " >
-                <h2 className=" text-xl  md:text-2xl font-semibold  " >Our <span className="text-red-500" >Story</span></h2>
+                <h2 className=" text-3xl  md:text-5xl font-semibold  " >Our <span className="text-red-500" >Story</span></h2>
 
-                <p className=" text-base md:text-lg font-medium ">At Sterling One Foundation, we nurture our African dreams through the strength of partnership, turning aspirations into reality. </p>
+                <p className=" text-xl md:text-2xl font-medium ">At Sterling One Foundation, we nurture our African dreams through the strength of partnership, turning aspirations into reality. </p>
 
             </div>
 

@@ -20,12 +20,12 @@ export default function ImpactReports() {
                 <h4 className=" text-lg md:text-xl font-medium " >REPORTS</h4>
 
                 <div className="space-y-3" >
-                    <h2 className=" text-xl  md:text-2xl font-semibold  " >IMPACT REPORT</h2>
-                    <p className=" text-sm md:text-base font-medium " >At Sterling One Foundation, we are dedicated to impacting the African continent. Read more about our activities, social initiatives and programs that drive social impact across Africa.</p>
+                    <h2 className=" text-2xl  md:text-3xl font-semibold  " >IMPACT REPORT</h2>
+                    <p className=" text-xl md:text-2xl font-medium " >At Sterling One Foundation, we are dedicated to impacting the African continent. Read more about our activities, social initiatives and programs that drive social impact across Africa.</p>
                 </div>
 
 
-                <ButtonComponent>See All Reports</ButtonComponent>
+                <ButtonComponent className=" text-base md:text-lg" >See All Reports</ButtonComponent>
             </div>
         </section>
     )

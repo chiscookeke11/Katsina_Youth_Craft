@@ -13,7 +13,7 @@ export default function NewsRoom() {
             <h1 className="text-2xl md:text-5xl font-semibold mt-10 " >Newsroom</h1>
 
 
-            <p className=" text-lg md:text-xl font-normal leading-[140%] text-gray-700 text-center   ">Join the conversation, get up to date on all our impact work at One Foundation.</p>
+            <p className=" text-xl md:text-2xl font-normal leading-[140%] text-gray-700 text-center   ">Join the conversation, get up to date on all our impact work at One Foundation.</p>
 
 
 

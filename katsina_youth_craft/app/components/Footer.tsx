@@ -21,7 +21,7 @@ export default function Footer() {
                 <div className=" w-full p-1 flex flex-col items-start gap-4 " >
                     <h4 className="text-xl " >Location</h4>
                     {/* <p className=" w-[90%] text-base  font-semibold text-gray-400 " >Gill Mall Plot 109 Coal City Garden Extension G.R.A Enugu, Nigeria.</p> */}
-                    <p className=" w-[90%] text-base  font-semibold text-gray-400 " >Katsina</p>
+                    <p className=" w-[90%] text-lg md:text-xl  font-semibold text-gray-400 " >Katsina</p>
                 </div>
 
 
@@ -29,7 +29,7 @@ export default function Footer() {
                     <h4 className="text-xl " >Links</h4>
                     <ul className={`w-fit flex flex-col items-start gap-3  `} >
                         {navLinksData.map((navlink, index) => (
-                            <li key={index} className=" text-sm   text-gray-400 hover:text-gray-200 transition-all duration-150" ><Link href={navlink.url} > {navlink.label}</Link> </li>
+                            <li key={index} className=" text-lg md:text-xl   text-gray-400 hover:text-gray-200 transition-all duration-150" ><Link href={navlink.url} > {navlink.label}</Link> </li>
                         ))}
                     </ul>
                 </div>
