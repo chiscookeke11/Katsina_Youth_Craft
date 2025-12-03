@@ -14,7 +14,7 @@ export default function OurStory() {
             </div>
 
 
-            <div className=" h-[400px] lg:h-[500px] bg-gray-400 w-full basis-1/2 flex items-center justify-center " >
+            <div className=" h-[400px] lg:h-[500px] bg-gray-400 w-full md:basis-1/2 flex items-center justify-center " >
                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JvmjewDDZ0Y?si=QAs2OjD0Tx_jh_Rq" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen  ></iframe>
             </div>
 

@@ -18,7 +18,7 @@ export default function HeroSection() {
                 <div className="md:w-[78%] flex flex-col gap-6 items-start  " >
                     <h1 className=" text-4xl md:text-5xl lg:text-7xl font-bold max-w-4xl leading-[118%] mb-2 " >Empowering <span className="text-[#dcae3a] " >Youth</span> Through Skills & Opportunity</h1>
 
-                    <p className=" text-xl md:text-2xl lg:text-3xl max-w-5xl hidden md:block " >Building careers with hands-on training, certification, and startup support.D</p>
+                    <p className=" text-xl md:text-2xl lg:text-3xl max-w-5xl hidden md:block " >Building careers with hands-on training, certification, and startup support.</p>
 
 
 
