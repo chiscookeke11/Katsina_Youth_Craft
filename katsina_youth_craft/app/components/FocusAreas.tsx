@@ -52,7 +52,7 @@ export default function FocusAreas() {
                     SolutionData.map((data, index) => (
                         <SolutionCard key={index} data={data} />
                     ))
-                }s
+                }
 
 
 

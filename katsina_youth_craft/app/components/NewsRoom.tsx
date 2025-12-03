@@ -1,3 +1,4 @@
+import { newsData } from "@/public/data/NewsData";
 import ButtonComponent from "./UI/ButtonComponent";
 import NewsCard from "./UI/NewsCard";
 
@@ -20,7 +21,10 @@ export default function NewsRoom() {
             <div className=" w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 place-items-center justify-items-center px-[3%] mt-10 " >
 
 
-                <NewsCard />
+                {newsData.map((news, index) => (
+                    <NewsCard key={index} data={news} />
+                ))}
+
 
 
             </div>

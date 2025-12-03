@@ -9,7 +9,7 @@ export default function ImpactReports() {
 
 
             <div className="  basis-1/2 w-full h-full min-h-[300px] md:min-h-0  py-2 px-2  " >
-            <Image src={"/HeroSection_images/hero-bg.jpeg"} alt="image" height={1000} width={1000} className="w-full h-full object-cover object-center "  />
+            <Image src={"/impactReport/coordinators.jpg"} alt="image" height={1000} width={1000} className="w-full h-full object-cover object-center "  />
 
             </div>
 

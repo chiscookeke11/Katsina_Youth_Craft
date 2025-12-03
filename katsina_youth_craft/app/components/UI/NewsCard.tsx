@@ -1,13 +1,18 @@
+import { NewsDataType } from "@/app/types/types";
 import Image from "next/image";
 
 
 
-export default function NewsCard() {
+interface NewsCardProps {
+    data: NewsDataType
+}
+
+export default function NewsCard({ data }: NewsCardProps) {
     return (
-        <div className="w-full  h-full flex flex-col items-center rounded-md overflow-hidden min-h-[300px] " >
+        <div className="w-full  h-full flex flex-col items-center rounded-md overflow-hidden min-h-[300px]  " >
 
             <div className=" w-full bg-gray-400  h-[50%] basis-1/2  " >
-                <Image src={"/HeroSection_images/hero-bg.jpeg"} alt="image" height={1000} width={1000} className="w-full h-full object-cover object-center " />
+                <Image src={data.image} alt="image" height={1000} width={1000} className="w-full h-full object-cover object-center " />
             </div>
 
             {/* The news text  */}

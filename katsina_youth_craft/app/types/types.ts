@@ -15,3 +15,11 @@ export interface SolutionDataType {
     image: string,
     color: string
 }
+
+
+export interface NewsDataType {
+    image: string,
+    title: string,
+    timeStamp: Date | null,
+    content: string,
+}

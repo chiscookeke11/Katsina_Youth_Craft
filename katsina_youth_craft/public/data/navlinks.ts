@@ -18,11 +18,7 @@ export const navLinksData = [
         url: "/our-services"
     },
     {
-        label: "Courses",
-        url: "/courses"
-    },
-    {
-        label: "Blog",
+        label: "News",
         url: "/research-blog"
     },
     {

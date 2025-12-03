@@ -1,5 +1,6 @@
 "use client"
 
+import { navLinksData } from "@/public/data/navlinks";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,16 +14,15 @@ export default function Navbar() {
 
 
     return (
-        <nav className=" w-full py-4 md:py-7 px-7 flex items-center justify-between gap-10 fixed z-50 bg-white top-0 left-0 font-league-spartan " >
+        <nav className=" w-full py-4 md:py-5 px-7 flex items-center justify-between gap-10 fixed z-50 bg-white top-0 left-0 font-league-spartan " >
             <Link href={"/"} >
-                <Image src={"/logo/kyc_logo-removebg-preview.png"} alt="logo" width={500} height={500} className="w-[50px] h-fit md:w-[85px] " />
+                <Image src={"/logo/kyc_logo-removebg-preview.png"} alt="logo" width={500} height={500} className="w-[50px] h-full md:w-[65px]  " />
             </Link>
 
             <ul className="w-fit hidden md:flex items-center gap-10" >
-                <li><Link href={"#"} >Who we are</Link></li>
-                <li><Link href={"#"} >Who we are</Link></li>
-                <li><Link href={"#"} >Who we are</Link></li>
-                <li><Link href={"#"} >Who we are</Link></li>
+                {navLinksData.map((link, index) => (
+                    <li key={index} ><Link href={"#"} > {link.label} </Link></li>
+                ))}
             </ul>
 
 
@@ -37,7 +37,9 @@ export default function Navbar() {
                 <button onClick={() => setShowMenu(false)} className="ml-auto" ><X size={32} /></button>
 
 
-                <li className=" text-lg text-black font-medium  " ><Link href={"#"} >Who we are</Link></li>
+                {navLinksData.map((link, index) => (
+                    <li key={index} ><Link href={"#"} > {link.label} </Link></li>
+                ))}
 
 
             </ul>
